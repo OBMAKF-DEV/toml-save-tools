@@ -22,7 +22,7 @@ pip install --upgrade pip
 Using the `load_game` decorator...
 
 ```python3
-class Game:
+class Game: 
 	def __init__(self, ...):
 		self.player = ...
 
