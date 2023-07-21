@@ -26,9 +26,9 @@ class Game:
     def __init__(self, ...):
         self.player = ...
 
-	@load_game
-	def start(self, ...):
-            # implement the game logic here.
+    @load_game
+    def start(self, ...):
+        # implement the game logic here.
 ```
 
 This assigns any saved values to `Game` and `Game.player`.
@@ -42,9 +42,9 @@ class Game:
     def __init__(self, ...):
         self.player = ...
 
-	@save_game
-	def event(self, ...):
-            # implement the event logic here.
+    @save_game
+    def event(self, ...):
+        # implement the event logic here.
 ```
 
 This saves the `Game` and `Game.player` attribute values to the save file.
