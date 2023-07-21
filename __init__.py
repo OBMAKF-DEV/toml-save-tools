@@ -13,7 +13,7 @@
 """This Package provides save file functionality."""
 
 # Package-level imports
-from decorators import save_game, load_game
-from utils import load
+from .source.decorators import save_game, load_game
+from .source.utils import load
 
 __all__ = ['save_game', 'load_game', 'load']
