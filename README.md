@@ -26,7 +26,7 @@ class Game:
 	def __init__(self, ...):
 		self.player = ...
 
-  @load_game
+	@load_game
 	def start(self, ...):
 		# implement the game logic here.
 ```
@@ -39,7 +39,7 @@ Using the `save_game` decorator...
 
 ```python3
 class Game:
-	def __init__(self, ...):
+  def __init__(self, ...):
 		self.player = ...
 
 	@save_game
