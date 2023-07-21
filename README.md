@@ -48,4 +48,24 @@ class Game:
 ```
 
 This saves the `Game` and `Game.player` attribute values to the save file.
-    
+
+---
+
+Using the `load` method to retrive a single element...
+
+```python3
+game = Game(...)
+
+hp = load(game, subject='player_data', _kw='health')
+# 100
+```
+... And to retrieve multiple elements...
+
+```python3
+game = Game(...)
+
+elements = load(game, subject='player_data', _kw=['health', 'stamina', 'xp'])
+# [100, 20, 120]
+```
+
+---	
