@@ -28,7 +28,7 @@ class Game:
 
 	@load_game
 	def start(self, ...):
-        # implement the game logic here.
+            # implement the game logic here.
 ```
 
 This assigns any saved values to `Game` and `Game.player`.
@@ -44,7 +44,7 @@ class Game:
 
 	@save_game
 	def event(self, ...):
-		# implement the event logic here.
+            # implement the event logic here.
 ```
 
 This saves the `Game` and `Game.player` attribute values to the save file.
