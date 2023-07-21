@@ -1,16 +1,16 @@
-# /===========================================\
-# |  File-Path  | ../savefile/__init__.py     |
-# |~~~~~~~~~~~~~+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-# |    Package  | savefile                    |
-# |~~~~~~~~~~~~~+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-# |             | - decorators.load_game      |
-# |    Modules  | - decorators.save_game      |
-# |             | - utils.load                |
-# |~~~~~~~~~~~~~+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-# |     Author  | Nathan Bransby (OBMAKF-DEV) |
-# \===========================================/
+# /=============================================\
+# |  File-Path  | ../savefile/__init__.py       |
+# |~~~~~~~~~~~~~+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+# |    Package  | savefile                      |
+# |~~~~~~~~~~~~~+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+# |             | - decorators.load_game        |
+# |    Modules  | - decorators.save_game        |
+# |             | - utils.load                  |
+# |~~~~~~~~~~~~~+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+# |     Github  | https://github.com/OBMAKF-DEV |
+# \=============================================/
 
-"""This Package provides save file functionality."""
+"""This Package provides save file functionality for saving and loading from a TOML save file."""
 
 # Package-level imports
 from .source.decorators import save_game, load_game
