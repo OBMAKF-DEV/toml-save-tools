@@ -68,4 +68,28 @@ elements = load(game, subject='player_data', _kw=['health', 'stamina', 'xp'])
 # [100, 20, 120]
 ```
 
----	
+---
+
+## The Save File
+An example on how the `save_file` might look...
+
+```TOML
+[player_data]
+name = "John Doe"
+health = 100
+max_health = 100
+level = 1
+
+[game_data]
+current_map = 1
+current_quest = "A new day"
+
+[controls]
+forward = "A"
+backwards = "S"
+left = "A"
+right = "D"
+interact = "F"
+```
+
+---
