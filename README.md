@@ -22,13 +22,13 @@ pip install --upgrade pip
 Using the `load_game` decorator...
 
 ```python3
-class Game: 
-	def __init__(self, ...):
-		self.player = ...
+class Game:
+    def __init__(self, ...):
+        self.player = ...
 
 	@load_game
 	def start(self, ...):
-		# implement the game logic here.
+        # implement the game logic here.
 ```
 
 This assigns any saved values to `Game` and `Game.player`.
@@ -39,8 +39,8 @@ Using the `save_game` decorator...
 
 ```python3
 class Game:
-  def __init__(self, ...):
-		self.player = ...
+    def __init__(self, ...):
+        self.player = ...
 
 	@save_game
 	def event(self, ...):
