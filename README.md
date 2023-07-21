@@ -19,7 +19,6 @@ pip install --upgrade pip
 
 ## How to use
 
-### load_game decorator 
 Using the `load_game` decorator...
 
 ```python3
@@ -36,7 +35,6 @@ This assigns any saved values to `Game` and `Game.player`.
 
 ---
 
-### save_game decorator
 Using the `save_game` decorator...
 
 ```python3
