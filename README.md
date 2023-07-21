@@ -7,7 +7,7 @@ The package requires the you to install ***tomli - v2.0.1*** *(or higher)*
 
 *To install tomli run:*
 
-```bash
+```bash 
 pip install tomli
 ```
 
